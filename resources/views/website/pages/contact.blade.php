@@ -428,7 +428,7 @@
                     data: formData,
                     success: function (response) {
                         $('#snackbar').show();
-                        $('#snackbar').text('Mail has been sent successfully!');
+                        $('#snackbar').text('Your message has been sent successfully!');
                         $('#contactForm')[0].reset();
                         grecaptcha.reset();
                         setTimeout(function () {
@@ -451,7 +451,7 @@
     
             if (!isValid) {
                 $('#snackbar').show();
-                $('#snackbar').text('All fields are required!');
+                $('#snackbar').text('Please enter all fields!');
                 setTimeout(function () {
                     $('#snackbar').hide();
                 }, 2000);
