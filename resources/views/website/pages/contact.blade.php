@@ -5,7 +5,8 @@
     @include('website.component.head')
 </head>
 
-<body class="page-template page-template-template-contact-us page-template-template-contact-us-php page page-id-4742 ip-container post-page-contact-us user-navigated-from-a-page-on-the-site">
+<body
+    class="page-template page-template-template-contact-us page-template-template-contact-us-php page page-id-4742 ip-container post-page-contact-us user-navigated-from-a-page-on-the-site">
 
     <div id="main-wrapper">
         @include('website.component.navigation')
@@ -59,53 +60,112 @@
                                                                                         aria-atomic="true"></p>
                                                                                     <ul></ul>
                                                                                 </div>
-                                                                                <form action="send_mail.php" id="contactForm" method="post" class="wpcf7-form init use-floating-validation-tip" novalidate="novalidate" data-status="init">
+                                                                                <form action="" method="POST"
+                                                                                    id="contactForm"
+                                                                                    class="wpcf7-form init use-floating-validation-tip"
+                                                                                    novalidate="novalidate"
+                                                                                    data-status="init">
+                                                                                    <div class="form-group">
+                                                                                        <div class="form-input">
+                                                                                            <label
+                                                                                                for="your-fname">First
+                                                                                                Name</label>
+                                                                                            <span
+                                                                                                class="wpcf7-form-control-wrap your-fname"><input
+                                                                                                    type="text"
+                                                                                                    name="first_name"
+                                                                                                    value="" size="40"
+                                                                                                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                                                                    id="your-fname"
+                                                                                                    aria-required="true"
+                                                                                                    aria-invalid="false" /></span>
+                                                                                        </div>
+                                                                                        <div class="form-input">
+                                                                                            <label for="your-lname">Last
+                                                                                                Name</label>
+                                                                                            <span
+                                                                                                class="wpcf7-form-control-wrap your-lname"><input
+                                                                                                    type="text"
+                                                                                                    name="last_name"
+                                                                                                    value="" size="40"
+                                                                                                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                                                                    id="your-lname"
+                                                                                                    aria-required="true"
+                                                                                                    aria-invalid="false" /></span>
+                                                                                        </div>
+                                                                                    </div>
 
-<div class="form-group">
-  <div class="form-input">
-    <label for="your-fname">First Name</label>
-    <span class="wpcf7-form-control-wrap your-fname"><input type="text" name="first_name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" id="your-fname" aria-required="true" aria-invalid="false" /></span>
-  </div>
-  <div class="form-input">
-    <label for="your-lname">Last Name</label>
-    <span class="wpcf7-form-control-wrap your-lname"><input type="text" name="last_name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" id="your-lname" aria-required="true" aria-invalid="false" /></span>
-  </div>
-</div>
+                                                                                    <div class="form-group">
+                                                                                        <div class="form-input lg">
+                                                                                            <label
+                                                                                                for="your-email-cu">Email
+                                                                                                Address</label>
+                                                                                            <span
+                                                                                                class="wpcf7-form-control-wrap your-email"><input
+                                                                                                    type="email"
+                                                                                                    name="email_address"
+                                                                                                    value="" size="40"
+                                                                                                    class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                                                                                                    id="your-email-cu"
+                                                                                                    aria-required="true"
+                                                                                                    aria-invalid="false" /></span>
+                                                                                        </div>
+                                                                                        <div class="form-input lg">
+                                                                                            <label
+                                                                                                for="your-phone">Phone</label>
+                                                                                            <span
+                                                                                                class="wpcf7-form-control-wrap your-phone"><input
+                                                                                                    type="tel"
+                                                                                                    name="phone"
+                                                                                                    value="" size="40"
+                                                                                                    class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel"
+                                                                                                    id="your-phone"
+                                                                                                    aria-required="true"
+                                                                                                    aria-invalid="false" /></span>
+                                                                                        </div>
+                                                                                    </div>
 
-<div class="form-group">
-  <div class="form-input lg">
-    <label for="your-email-cu">Email Address</label>
-    <span class="wpcf7-form-control-wrap your-email"><input type="email" name="email_address" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" id="your-email-cu" aria-required="true" aria-invalid="false" /></span>
-  </div>
-  <div class="form-input lg">
-    <label for="your-phone">Phone</label>
-    <span class="wpcf7-form-control-wrap your-phone"><input type="tel" name="phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" id="your-phone" aria-required="true" aria-invalid="false" /></span>
-  </div>
-</div>
+                                                                                    <div class="form-group">
+                                                                                        <div class="form-input lg">
+                                                                                            <label
+                                                                                                for="your-question">Message</label>
+                                                                                            <span
+                                                                                                class="wpcf7-form-control-wrap your-question">
+                                                                                                <textarea name="message"
+                                                                                                    cols="40" rows="10"
+                                                                                                    class="wpcf7-form-control wpcf7-textarea"
+                                                                                                    id="your-question"
+                                                                                                    aria-invalid="false"></textarea>
+                                                                                            </span>
+                                                                                        </div>
+                                                                                    </div>
 
-<div class="form-group">
-  <div class="form-input lg">
-    <label for="your-question">Message</label>
-    <span class="wpcf7-form-control-wrap your-question">
-      <textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" id="your-question" aria-invalid="false"></textarea>
-    </span>
-  </div>
-</div>
-<div class="g-recaptcha" data-sitekey="6LdfNDgpAAAAALD68a7CI1bkHPoz588elKtrVG2e"></div>
+                                                                                    <div class="form-group">
+                                                                                        <div class="form-input lg">
+                                                                                            <div class="g-recaptcha"
+                                                                                                data-sitekey="6LfUqDwpAAAAAHfql2HOCIURuZiIzQhNMsMBx_BF">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
 
-<div class="form-group">
-  <div class="form-submit site-button">
-  <!-- onclick="submitForm()" -->
-    <button type="button"  id="subBtn" class="wpcf7-form-control wpcf7-submit contact-btn">Submit</button>
-  </div>
+                                                                                    <div class="form-group">
+                                                                                        <div
+                                                                                            class="form-submit site-button">
+                                                                                            <button type="button"
+                                                                                                id="subBtn"
+                                                                                                class="wpcf7-form-control wpcf7-submit contact-btn">Submit</button>
+                                                                                        </div>
 
-  <div id="toast">
-    Mail has been sent successfully!
-    <span id="toastClose" onclick="closeToast()">×</span>
-  </div>
-</div>
-<div class="wpcf7-response-output" aria-hidden="true"></div>
-</form>
+                                                                                        <div id="snackbar">
+                                                                                            Mail has been sent
+                                                                                            successfully!
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                    <div class="wpcf7-response-output"
+                                                                                        aria-hidden="true">
+                                                                                    </div>
+                                                                                </form>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -337,31 +397,74 @@
     @include('website.component.script')
 
     <script>
-      $('document').ready(function() {
-        $('#toast').hide();
-        $('#subBtn').on('click' , function(e){
-          e.preventDefault();
-          var formData = $('#contactForm').serializeArray();
-          console.log(formData);
-          $.ajax({
-            type: 'POST',
-            url: 'send_mail.php',
-            data: formData,
-            success: function(response) {
-                $('#toast').show();
-                $('#contactForm')[0].reset();
+        $('document').ready(function () {
+            $('#snackbar').hide();
+            $('#subBtn').on('click', function (e) {
+                e.preventDefault();
+                if (!validateForm()) {
+                    return;
+                }
+                
+                var recaptchaResponse = $('textarea[name="g-recaptcha-response"]').val();
+                if(!recaptchaResponse){
+                    $('#snackbar').show();
+                    $('#snackbar').text('Please verify reCAPTCHA!');
+                    setTimeout(function () {
+                        $('#snackbar').hide();
+                    }, 7000);
+                }
+                var formData = $('#contactForm').serializeArray();
+                console.log(formData);
+    
+                $.ajaxSetup({
+                    headers: {
+                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                    }
+                });
+    
+                $.ajax({
+                    type: 'POST',
+                    url: "{{ route('contactus') }}",
+                    data: formData,
+                    success: function (response) {
+                        $('#snackbar').show();
+                        $('#snackbar').text('Mail has been sent successfully!');
+                        $('#contactForm')[0].reset();
+                        grecaptcha.reset();
+                        setTimeout(function () {
+                            $('#snackbar').hide();
+                        }, 3000);
+                    }
+                });
+            });
+        });
+        
+        function validateForm() {
+            var isValid = true;
+    
+            $('#contactForm input, #contactForm textarea[name="message"]').each(function () {
+                if ($(this).val().trim() === '') {
+                    isValid = false;
+                    return false;
+                }
+            });
+    
+            if (!isValid) {
+                $('#snackbar').show();
+                $('#snackbar').text('All fields are required!');
                 setTimeout(function () {
-                  $('#toast').hide();
-                }, 3000);
+                    $('#snackbar').hide();
+                }, 2000);
+                return false;
             }
-          });
-        })
-      });      
-
-    function closeToast() {
-        $('#toast').hide();
-    }
-  </script>
+            
+            return true;
+        }
+    
+        function closeToast() {
+            $('#snackbar').hide();
+        }
+    </script>
 </body>
 
 </html>

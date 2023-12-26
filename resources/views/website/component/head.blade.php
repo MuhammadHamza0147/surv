@@ -60,7 +60,8 @@
   <link rel="icon" href="{{asset('assets/images/favicon.webp')}}" sizes="32x32" />
   <link rel="icon" href="{{asset('assets/images/favicon.webp')}}" sizes="192x192" />
   <link rel="apple-touch-icon" href="{{asset('assets/images/favicon.webp')}}" />
-
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <meta name="csrf-token" content="{{ csrf_token() }}" />
   <!-- font-family -->
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" />
   <style>

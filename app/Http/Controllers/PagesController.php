@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\SendContactUsMail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class PagesController extends Controller
 {
@@ -68,6 +70,20 @@ class PagesController extends Controller
     }
 
     public function ContactForm(Request $request){
-        dd($request->all());
+        $request->validate([
+            'first_name' => 'required',
+            'last_name' => 'required',
+            'email_address' => 'required',
+            'phone' => 'required',
+            'message' => 'required',
+            'g-recaptcha-response' => 'required',
+        ]);
+
+        $mail = Mail::to('mianhamxa914@gmail.com')->send(new SendContactUsMail($request->all()));
+        if($mail){
+            return response()->json(['success' => true]);
+        }else{
+            return response()->json(['success' => false]);
+        }
     }
 }
