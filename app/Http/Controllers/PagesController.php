@@ -66,4 +66,8 @@ class PagesController extends Controller
     public function PrivacyPolicy(){
         return view('website.pages.PrivacyPolicy');
     }
+
+    public function ContactForm(Request $request){
+        dd($request->all());
+    }
 }

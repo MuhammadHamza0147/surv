@@ -29,3 +29,4 @@ Route::get('privacy-policy' , [PagesController::class , 'PrivacyPolicy'])->name(
 Route::get('international-clients' , [PagesController::class , 'InternationalClient'])->name('international.clients');
 Route::get('landloads' , [PagesController::class , 'Landload'])->name('landloads');
 Route::get('faqs' , [PagesController::class , 'FAQs'])->name('faqs');
+Route::post('contactus' , [PagesController::class , 'ContactForm'])->name('contactus');
