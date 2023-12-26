@@ -10104,6 +10104,14 @@ span.a2a_svg.a2a_s__default {
     /*margin-left: -143px;*/
 }
 
+.service_img {
+    width: 100%;
+    height: auto !important;
+    /* margin: 0px 42px 0px; */
+    position: relative;
+    z-index: 1;
+}
+
 
 .new-development-title span {
     text-align: left !important;
@@ -20571,6 +20579,19 @@ a {
     transform: translate(-50%, -50%);
 }
 
+
+.innerhead-legal-b1 {
+    display: block;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 42px !important;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: -1.8px;
+    color: #e51937;
+    position: relative;
+    top: -7px;
+    right: -430px;
+}
 .inner-banner-check {
     position: absolute;
     top: 50%;
