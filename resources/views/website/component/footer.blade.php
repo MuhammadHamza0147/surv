@@ -14,7 +14,7 @@
                                                     <h1 class="contact-us-title site-section-title">
                                                         <span>
                                                             Contact <b>Us</b>
-                                                        </span>
+                                                       </span>
                                                     </h1>
                                                     <div class="contact-us-subtext">
                                                         We would love to hear from you! Send us a
@@ -28,7 +28,7 @@
                                                                 </p>
                                                                 <ul></ul>
                                                             </div>
-                                                            <form action="#" method="post" id="contactForm" class="wpcf7-form init use-floating-validation-tip" novalidate="novalidate" data-status="init">
+                                                            <form action="send_mail.php" method="post" id="contactForm" class="wpcf7-form init use-floating-validation-tip" novalidate="novalidate" data-status="init">
                                                                 <div class="form-group">
                                                                     <div class="form-input">
                                                                         <label for="your-fname">First Name</label>
@@ -52,25 +52,25 @@
                                                                 </div>
 
                                                                 <div class="form-group">
-                                                                    <div class="form-input lg">
-                                                                        <label for="your-question">Message</label>
-                                                                        <span class="wpcf7-form-control-wrap your-question">
-                                                                            <textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" id="your-question" aria-invalid="false"></textarea>
-                                                                        </span>
-                                                                    </div>
-                                                                </div>
-
+                                            <div class="form-input lg">
+                                              <label for="your-question">Message</label>
+                                              <span class="wpcf7-form-control-wrap your-question">
+                                                <textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" id="your-question" aria-invalid="false"></textarea>
+                                              </span>
+                                            </div>
+                                          </div>
                                                                 <div class="form-group">
                                                                     <div class="form-input lg">
-                                                                        <div class="g-recaptcha" data-sitekey="6LdfNDgpAAAAALD68a7CI1bkHPoz588elKtrVG2e"></div>
+                                                                    <div class="g-recaptcha" data-sitekey="6LdfNDgpAAAAALD68a7CI1bkHPoz588elKtrVG2e"></div>
                                                                     </div>
                                                                 </div>
+                                                              
 
                                                                 <div class="form-group">
                                                                     <div class="form-submit site-button">
-                                                                        <button type="button" id="subBtn" class="wpcf7-form-control wpcf7-submit contact-btn">Submit</button>
+                                                                        <button type="button"  id="subBtn" class="wpcf7-form-control wpcf7-submit contact-btn">Submit</button>
                                                                     </div>
-
+                                                                    
                                                                     <div id="toast">
                                                                         Mail has been sent successfully!
                                                                         <span id="toastClose" onclick="closeToast()">×</span>
