@@ -10,7 +10,7 @@
     <section>
         <span >Hi, </span> <br>
         <span> You have received a new contact query from Surveillance UK, details are below</span> <br> <br>
-        <span style="font-weight:bold;">Full Name : </span> <span>{{$formData['last_name']}} {{$formData['first_name']}}</span> <br>
+        <span style="font-weight:bold;">Full Name : </span> <span>{{$formData['name']}}</span> <br>
         <span style="font-weight:bold;">Email Address: </span> <span>{{$formData['email_address']}}</span> <br>
         <span style="font-weight:bold;">Contact: </span> <span>{{$formData['phone']}}</span> <br>
         <span style="font-weight:bold;">Message: </span> <span>{{$formData['message']}}</span> <br><br>

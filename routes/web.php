@@ -30,3 +30,4 @@ Route::get('international-clients' , [PagesController::class , 'InternationalCli
 Route::get('landloads' , [PagesController::class , 'Landload'])->name('landloads');
 Route::get('faqs' , [PagesController::class , 'FAQs'])->name('faqs');
 Route::post('contactus' , [PagesController::class , 'ContactForm'])->name('contactus');
+Route::post('popup' , [PagesController::class , 'PopUpForm'])->name('popup');

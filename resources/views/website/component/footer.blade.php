@@ -28,7 +28,7 @@
                                                                 </p>
                                                                 <ul></ul>
                                                             </div>
-                                                            <form action="" method="POST" id="contactForm"
+                                                            <form method="POST" id="contactForm"
                                                                 class="wpcf7-form init use-floating-validation-tip"
                                                                 novalidate="novalidate" data-status="init">
                                                                 <div class="form-group">
@@ -103,9 +103,7 @@
                                                                             class="wpcf7-form-control wpcf7-submit contact-btn">Submit</button>
                                                                     </div>
 
-                                                                    <div id="snackbar">
-                                                                        Mail has been sent successfully!
-                                                                    </div>
+                                                                    <div id="snackbar"></div>
                                                                 </div>
 
                                                                 <div class="wpcf7-response-output" aria-hidden="true">

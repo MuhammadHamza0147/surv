@@ -70,8 +70,7 @@
                                                                                             <label
                                                                                                 for="your-fname">First
                                                                                                 Name</label>
-                                                                                            <span
-                                                                                                class="wpcf7-form-control-wrap your-fname"><input
+                                                                                            <span class="wpcf7-form-control-wrap your-fname"><input
                                                                                                     type="text"
                                                                                                     name="first_name"
                                                                                                     value="" size="40"

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Mail\SendContactUsMail;
+use App\Mail\SendPopUpMail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
@@ -80,6 +81,21 @@ class PagesController extends Controller
         ]);
 
         $mail = Mail::to('mianhamxa914@gmail.com')->send(new SendContactUsMail($request->all()));
+        if($mail){
+            return response()->json(['success' => true]);
+        }else{
+            return response()->json(['success' => false]);
+        }
+    }
+    
+    public function PopUpForm(Request $request){
+        $request->validate([
+            'name' => 'required',
+            'email_address' => 'required',
+            'phone' => 'required',
+            'message' => 'required',
+        ]);
+        $mail = Mail::to('mianhamxa914@gmail.com')->send(new SendPopUpMail($request->all()));
         if($mail){
             return response()->json(['success' => true]);
         }else{
