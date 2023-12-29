@@ -4,7 +4,7 @@
     <h2 class="aios-starter-theme-hide-title">Main Content</h2>
     <div id="inner-page-banner" class="inner-page-banner banner-concierge">
         <div class="textwidget custom-html-widget">
-            <a href="#" aria-label="ip-banner-link">
+            <a aria-label="ip-banner-link">
 
                 <img src="{{asset('assets/images/inner4.webp')}}" width="100%" height="342" alt="" />
 
@@ -12,6 +12,9 @@
                     LANDLORDS /
 
                     <b class="innerhead-surveillance-b">INVESTORS</b>
+                </div>
+                <div class="tel-banner">
+                    <h4>Call 0161-327-4287 </h4>
                 </div>
             </a>
         </div>
@@ -59,7 +62,7 @@
                                                                 property or investment. Full credited
                                                                 background checks. Don’t become a victim
                                                                 Landlord or scammed Investor!
-                                                            </p>
+                                                              </p>
                                                         </div>
                                                     </div>
 
@@ -77,25 +80,22 @@
                                                         </div>
                                                         <ul class="new-development-links-list">
                                                             <li>
-                                                                DUE DILLIGENCE
+                                                              DUE DILLIGENCE
                                                             </li>
                                                             <li>
-                                                                BACKGROUND CHECKS
+                                                              BACKGROUND CHECKS
                                                             </li>
                                                             <li>
-                                                                IF IT SOUNDS TO GOOD TO BE TRUE…
-                                                                
+                                                              IF IT SOUNDS TO GOOD TO BE TRUE…
                                                             </li>
                                                             <li>
-                                                                STAY COMPLIANT
-                                                                imonials
+                                                              STAY COMPLIANT
                                                             </li>
                                                             <li>
-                                                                WORK ON FACTS NOT SMILES & CHARM
-                                                                
+                                                              WORK ON FACTS NOT SMILES & CHARM
                                                             </li>
                                                             <li>
-                                                                QUESTION ALL FEES
+                                                              QUESTION ALL FEES
                                                             </li>
                                                         </ul>
                                                     </div>

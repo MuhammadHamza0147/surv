@@ -4,12 +4,14 @@
     <h2 class="aios-starter-theme-hide-title">Main Content</h2>
     <div id="inner-page-banner" class="inner-page-banner banner-concierge">
         <div class="textwidget custom-html-widget">
-            <a href="#" aria-label="ip-banner-link">
-
+            <a aria-label="ip-banner-link">
                 <img src="{{asset('assets/images/inner3.webp')}}" width="100%" height="342" alt="" />
                 <div class="inner-legal-head">
                     BUSINESS & CORPORATIONS
                     <b class="innerhead-legal-b1">SERVICE</b>
+                </div>
+                <div class="tel-banner">
+                    <h4>Call 0161-327-4287 </h4>
                 </div>
             </a>
         </div>
@@ -178,7 +180,7 @@
                                                         <li><span>Long Term Sick claims</span></li>
                                                         <li><span> Industrial Tribunal Cases</span>
                                                         </li>
-                                                        <li<span> Landlord / Investor Services</span>
+                                                        <li><span> Landlord / Investor Services</span>
                                                             </li>
                                                     </ul>
                                                 </div>
@@ -250,6 +252,9 @@
                                                                 their business is back in safe hands
                                                                 working together with Surveillance UK.
                                                             </p>
+                                                        </div>
+                                                        <div style="margin-top:20px;">
+                                                            <a href="{{route('contact.us')}}" class="dark-text site-button">Contact Us</a>
                                                         </div>
                                                     </div>
                                                     <div class="col-md-6" data-aios-staggered-child="true"

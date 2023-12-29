@@ -5557,6 +5557,9 @@ body.page-template-template-concierge-new #content .in-the-media-title {
 .new-development-links-title .title-line1{
     display:none;
 }
+.title-line{
+    display:none;
+}
 
 .inner-banner-head{
     position: absolute;
@@ -5568,6 +5571,19 @@ body.page-template-template-concierge-new #content .in-the-media-title {
     transform: translate(-50%, -50%);
 }
 
+.video-tel{
+    color:#E51937; 
+    font-size:12px !important;
+}
+
+.tel-banner{
+        color: white; 
+    font-size:20px;
+    text-align:center !important; 
+    position:absolute; 
+    width:100%;  
+    bottom:20px;
+}
 .inner-b3{
     display: block;
     font-family: "Source Sans Pro", sans-serif;
@@ -5719,13 +5735,20 @@ body.page-template-template-concierge-new #content .in-the-media-title {
 
 #content .invest_title span b {
     display: block;
-    font-size: 51px;
+    font-size: 45px !important;
     font-weight: 400;
     line-height: 1;
     letter-spacing: -0.05em;
     color: #e51937;
     margin-top: -14px;
     margin-left: 0px !important;
+}
+
+.site-section-title span {
+    display: inline-block;
+    text-align: right;
+    font-size: 46px;
+    position: relative;
 }
 
 #content .execution_title {
@@ -5855,7 +5878,7 @@ html .our-team-address-item .site-section-title span {
     color: #e51937;
     position: relative;
     top: -4px;
-    right: -100px !important;
+       right: -87px !important;
 }
 
 .footer .footer-wrap .footer-center .footer-logos-a img:first-child {
@@ -6391,8 +6414,8 @@ a.concierge-btn {
     line-height: 1;
     letter-spacing: -0.05em;
     color: #e51937;
-    margin-top: -4px;
-    margin-left: 95px;
+    margin-top: -1px;
+    margin-left: 74px;
 }
 
 
@@ -6877,7 +6900,7 @@ html:not([lang*="en"]) .home .site-section-title.sl-v2-title {
     letter-spacing: -1.8px;
     color: #e51937;
     position: relative;
-    top: -4px;
+    top: -9px;
     right: -82px;
 }
 
@@ -7304,6 +7327,41 @@ body.page-template-template-marketing-list #content .col-md-5 h2.ip-marketing-li
 }
 .sunset-logos {
     flex-flow: column;
+}
+
+#content .strategy_title {
+    font-size: 77px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -0.025em;
+    color: #1b1b1b;
+    margin: 0;
+    padding: 0 0 0 25px;
+    position: relative;
+    left: 0px;
+}
+
+#content .strategy_title span b {
+    display: block;
+    font-size: 41px !important;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    color: #e51937;
+    margin-top: -14px;
+    margin-left: 63px;
+}
+
+
+#content .service_title span b {
+    display: block;
+    font-size: 41px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    color: #e51937;
+    margin-top: -14px;
+    margin-left: 0px;
 }
 
 .footer .footer-wrap .footer-center .footer-logos-a img:first-child {

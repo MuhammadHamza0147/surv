@@ -4,12 +4,14 @@
     <h2 class="aios-starter-theme-hide-title">Main Content</h2>
     <div id="inner-page-banner" class="inner-page-banner banner-concierge">
       <div class="textwidget custom-html-widget">
-        <a href="#" aria-label="ip-banner-link">
+        <a aria-label="ip-banner-link">
           <img src="{{asset('assets/images/inner3.webp')}}" width="100%" height="342" alt="" />
           <div class="inner-banner-check">
             BACKGROUND CHECKS
-
             <b class="innerhead-checks-b1">SERVICE </b>
+          </div>
+          <div class="tel-banner">
+            <h4>Call 0161-327-4287 </h4>
           </div>
         </a>
       </div>
@@ -202,7 +204,7 @@
                         <img
                           src="{{asset('assets/images/background checks.webp')}}"
                           alt="Services Development Photo"
-                          class="new-development-services-photo"
+                          class="new-development-services-photo service_img"
                           data-aios-staggered-child="true"
                           data-aios-animation="slideInUp"
                           data-aios-animation-delay="0s"

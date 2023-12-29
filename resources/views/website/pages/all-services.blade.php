@@ -7,9 +7,12 @@
     <h2 class="aios-starter-theme-hide-title">Main Content</h2>
     <div id="inner-page-banner" class="inner-page-banner banner-local-exposure">
         <div class="textwidget custom-html-widget">
-            <a href="#" aria-label="ip-banner-link">
+            <a aria-label="ip-banner-link">
                 <img src="{{asset('assets/images/inner4.webp')}}" alt="" width="100%" height="342" />
                 <div class="inner-banner-head">ALL SERVICES</div>
+                <div class="tel-banner">
+                    <h4>Call 0161-327-4287 </h4>
+                </div>
             </a>
         </div>
     </div>

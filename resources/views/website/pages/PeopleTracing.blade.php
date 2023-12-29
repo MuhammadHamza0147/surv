@@ -4,11 +4,14 @@
     <h2 class="aios-starter-theme-hide-title">Main Content</h2>
     <div id="inner-page-banner" class="inner-page-banner banner-concierge">
         <div class="textwidget custom-html-widget">
-            <a href="#" aria-label="ip-banner-link">
+            <a aria-label="ip-banner-link">
                 <img src="{{asset('assets/images/inner5.webp')}}" width="100%" height="342" alt="" />
                 <div class="inner-banner-head">
                     PEOPLE TRACING
                     <b class="innerhead-tracing-b1">SERVICE</b>
+                </div>
+                <div class="tel-banner">
+                    <h4>Call 0161-327-4287 </h4>
                 </div>
             </a>
         </div>

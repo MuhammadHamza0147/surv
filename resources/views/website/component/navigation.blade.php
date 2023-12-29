@@ -87,6 +87,7 @@
         </div>
     </div>
 </header>
+
 <div class="fixed-header hidden-xs hidden-sm">
     <div class="fixed-header-wrap clearfix">
         <div class="fixed-header-left">
@@ -158,19 +159,23 @@
         </div>
         <div class="fixed-header-right">
             <div class="fixed-header-contact">
-                <div class="textwidget custom-html-widget">
-                    <ul>
-                        <li>
-                            <em class="ai-mobile-phone"><a href="tel:+1.323.488.3038" class="aios-ai-phone"
-                                    aria-label="+1.323.488.3038"><img src="{{asset('assets/images/site-phone-a.webp')}}"
-                                        alt="Phone" /></a></em>
-                        </li>
-                    </ul>
-                </div>
+              <div class="textwidget custom-html-widget">
+                <ul>
+                  <li>
+                    <em class="ai-mobile-phone"><a href="tel:+1.323.488.3038" class="aios-ai-phone"
+                        aria-label="+1.323.488.3038"><img src="{{asset('assets/images/site-phone-a.webp')}}" alt="Phone" /></a></em>
+                  </li>
+                  <li>
+                    <a class="asis-mailto-obfuscated-email-hidden  " aria-label="office" data-value="office"
+                      style="border:none !important;"><img src="{{asset('assets/images/tel.png')}}" alt="Phone"></a>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </div>
+          </div>
     </div>
 </div>
+
 <div id="site-offcanvas" class="site-offcanvas">
     <div class="offcanvas-close" data-offcanvas="close">
         <img src="{{asset('assets/images/site-close-a.webp')}}" alt="Close" /> Close
@@ -262,26 +267,33 @@
             </div>
             <div class="offcanvas-smi">
                 <div class="textwidget custom-html-widget">
-                    <ul>
-                        <li>
-                            <a href="#" target="_blank" rel="noopener">
-                                <span class="hidden">LinkedIn</span>
-                                <span class="ai-linkedin"></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank" rel="noopener">
-                                <span class="hidden">Instagram </span>
-                                <span class="ai-instagram"></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank" rel="noopener">
-                                <span class="hidden">WhatsApp</span>
-                                <span class="ai-whatsapp"></span>
-                            </a>
-                        </li>
-                    </ul>
+                  <ul>
+                    <li>
+                      <a href="https://www.facebook.com/people/Surveillance-UK-Private-Investigators/61554412777429/"
+                        target="_blank" rel="noopener">
+                        <span class="hidden">facebook</span>
+                        <span class="ai-facebook"></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_blank" rel="noopener">
+                        <span class="hidden">LinkedIn</span>
+                        <span class="ai-linkedin"></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/surveillance.uk/" target="_blank" rel="noopener">
+                        <span class="hidden">Instagram </span>
+                        <span class="ai-instagram"></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://wa.me/07905063856" target="_blank" rel="noopener">
+                        <span class="hidden">WhatsApp</span>
+                        <span class="ai-whatsapp"></span>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
             </div>
         </div>
@@ -290,33 +302,40 @@
 
 <div id="floating-smi" class="floating-smi hidden-xs hidden-sm">
     <h2 class="hidden">Floating Social Media Icons</h2>
-
     <div class="floating-smi-wrap">
         <div class="floating-smi-list">
-            <div class="textwidget custom-html-widget">
-                <ul class="notranslate">
-                    <li>
-                        <a href="#" target="_blank" rel="noopener">
-                            <span class="hidden">LinkedIn</span>
-                            <span class="ai-font-linkedin"></span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" target="_blank" rel="noopener">
-                            <span class="hidden">Instagram </span>
-                            <span class="ai-font-instagram"></span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" target="_blank" rel="noopener">
-                            <span class="hidden">WhatsApp</span>
-                            <span class="ai-font-whatsapp"></span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+          <div class="textwidget custom-html-widget">
+            <ul class="notranslate">
+              <li>
+                <a href="https://www.facebook.com/people/Surveillance-UK-Private-Investigators/61554412777429/"
+                  target="_blank" rel="noopener">
+                  <span class="hidden">facebook</span>
+                  <span class="ai-font-facebook"></span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/surveillance-uk/about/?viewAsMember=true" target="_blank"
+                  rel="noopener">
+                  <span class="hidden">LinkedIn</span>
+                  <span class="ai-font-linkedin"></span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/surveillance.uk/" target="_blank" rel="noopener">
+                  <span class="hidden">Instagram </span>
+                  <span class="ai-font-instagram"></span>
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me/07905063856" target="_blank" rel="noopener">
+                  <span class="hidden">WhatsApp</span>
+                  <span class="ai-font-whatsapp"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </div>
+      </div>
 </div>
 
 <div id="custom-mobile-header" class="custom-mobile-header hidden-md hidden-lg">

@@ -4,12 +4,14 @@
     <h2 class="aios-starter-theme-hide-title">Main Content</h2>
     <div id="inner-page-banner" class="inner-page-banner banner-concierge">
         <div class="textwidget custom-html-widget">
-            <a href="#" aria-label="ip-banner-link">
-
+            <a aria-label="ip-banner-link">
                 <img src="{{asset('assets/images/inner4.webp')}}" width="100%" height="342" alt="" />
                 <div class="inner-legal-head">
                     BARRISTERS & SOLICITORS<b class="innerhead-legal-b1">SERVICES
                     </b>
+                </div>
+                <div class="tel-banner">
+                    <h4>Call 0161-327-4287 </h4>
                 </div>
             </a>
 
@@ -70,24 +72,18 @@
                                                         <ul class="new-development-links-list">
                                                             <li>
                                                                 PRE-TRIAL INVESTIGATIONS
-                                                                <!--<a href="#" data-link-target="new-development-about-us" data-link-offset="100">PRE-TRIAL INVESTIGATIONS</a>-->
                                                             </li>
                                                             <li>
                                                                 WITNESS INTERVIEWS & STATEMENTS
-                                                                <!--<a href="#" data-link-target="new-development-services" data-link-offset="100">Services</a>-->
                                                             </li>
                                                             <li>
                                                                 PROCESS SERVING
-
-                                                                <!--<a href="#" data-link-target="new-development-experience" data-link-offset="100">Our Strategy</a>-->
                                                             </li>
                                                             <li>
                                                                 TRACING
-                                                                <!--<a href="#" data-link-target="new-development-testimonials" data-link-offset="100">Testimonials</a>-->
                                                             </li>
                                                             <li>
                                                                 SURVEILLANCE
-                                                                <!--<a href="#" data-link-target="new-development-listings" data-link-offset="100">New Development Listings</a>-->
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -251,6 +247,9 @@
                                                                     available for oral evidence if required
                                                                     for court.
                                                                 </p>
+                                                            </div>
+                                                            <div style="margin-top:20px;">
+                                                                <a href="{{route('contact.us')}}" class="dark-text site-button">Contact Us</a>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-6" data-aios-staggered-child="true"

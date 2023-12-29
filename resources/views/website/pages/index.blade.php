@@ -18,10 +18,11 @@
           <div class="slideshow-contact">
             <div>
               <div class="textwidget custom-html-widget">
-                <a href="#" style="color: white; font-size: 60px; font-weight: 600">
+                <a style="color: white; font-size: 60px; font-weight: 600">
                   <img src="{{asset('assets/images/center-logo.png')}}" alt="The Oppenheim Group Real Estate - Logo"
                     class="slideshow-contact-logo skip-lazyload" />
                 </a>
+                <h3 class="video-tel">Tel: 0161-327-4287</h3>
 
                 <div class="slideshow-contat-btn-row">
                   <a href="#" target="_blank" class="slideshow-learn-more site-button" rel="noopener">MANCHESTER</a>
@@ -291,6 +292,7 @@
                     ability to make informed decisions, win cases and achieve
                     absolute peace of mind.
                   </p>
+
                   <a href="{{route('contact.us')}}" class="welcome-read-more site-button " target="_blank"
                     data-aios-staggered-child="true" data-aios-animation="fadeIn" data-aios-animation-delay="0.75s"
                     rel="noopener">Contact Us</a>
@@ -596,7 +598,7 @@
                               <span class="month">Dec</span>
                               <span class="year">2019</span>
                             </div>
-                            <img class="lazyload spot-img" src="{{asset('assets/images/Pic 2 - Universal LA.webp')}}" style="
+                            <img class="lazyload spot-img" src="{{asset('assets/images/Universal logo.jpeg')}}" style="
                                   background-image: url();
                                   background-size: cover;
                                   background-position: center;
@@ -758,8 +760,8 @@
                       success, and I know I can count on them for my clients.
                       ”
                     </div>
-                    <a href="#" class="testi-author">S.Greg son <br />
-                      <i> – Solicitor (Partner Ever sheds)</i>
+                    <a href="#" class="testi-author">S.Gregson <br />
+                      <i> – Solicitor (Partner Eversheds)</i>
                     </a>
                   </div>
 
@@ -768,7 +770,7 @@
                       “Living in L. A, I wasn’t sure I would ever find a
                       missing person who took all my money. My lawyer reached
                       out to Surveillance UK, and we sent them all the details
-                      we had. God lord, they found him I could not believe it.
+                      we had. Good lord, they found him I could not believe it.
                       It resulted in my lawyer being able to start proceedings
                       to get my money back. Thank you, kind sirs and madam,
                       you really are the best, and thank you for my flowers.

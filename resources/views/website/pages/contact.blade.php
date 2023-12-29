@@ -14,9 +14,12 @@
             <h2 class="aios-starter-theme-hide-title">Main Content</h2>
             <div id="inner-page-banner" class="inner-page-banner banner-contact-us">
                 <div class="textwidget custom-html-widget">
-                    <a href="#" aria-label="ip-banner-link">
+                    <a aria-label="ip-banner-link">
                         <img src="{{asset('assets/images/inner4.webp')}}" alt="" width="100%" height="342" />
                         <div class="inner-banner-head">CONTACT US</div>
+                        <div class="tel-banner">
+                            <h4>Call 0161-327-4287 </h4>
+                        </div>
                     </a>
                 </div>
             </div>
@@ -47,9 +50,9 @@
                                                                             </span>
                                                                         </h1>
                                                                         <div class="contact-us-subtext">
-                                                                            We would love to hear from you! Send us
-                                                                            a message and we’ll get right back in
-                                                                            touch.
+                                                                            For some the hardest step is the first step,
+                                                                            making contact. All messages are received
+                                                                            discreetly and secure. We are here to help.
                                                                         </div>
                                                                         <div class="contact-us-form">
                                                                             <div role="form" class="wpcf7"
@@ -170,67 +173,69 @@
                                                             <div class="row">
                                                                 <div class="col-md-6 col-md-offset-6">
                                                                     <div class="contact-us-info">
-                                                                        <img src="{{asset('assets/images/logoo1.png')}}"
-                                                                            alt="" class="contact-us-logo" />
-                                                                        <ul class="info-company">
+                                                                        <img src="{{asset('assets/images/logoo1.png')}}" alt="Brand Logo" class="contact-us-logo" />
+
+                                                                            <ul class="info-company">
+                                                                                <h2 class="tel-h2">Telephone 0161-327-4287</h2>
+                                                                                <p class="tel-p">Mon-Sun 7am to 10pm
+                                                                                </p>
+                                                                                <p class="tel-p">Out of hours voice mail option available </p>
+                                                                                <h5 style="color:#8c8c8c; padding:20px;" class="lg location">Please send ALL mail
+                                                                                  to our Head Office</h5>
+                                          
+                                                                                <li>
+                                                                                  <img src="{{asset('assets/images/site-mail-c.webp')}}" alt="Mail" />
+                                                                                  Head Office (Manchester)
+                                                                                </li>
+                                                                                <li class="lg location">
+                                                                                  <img src="{{asset('assets/images/site-location-b.webp')}}" alt="Location Pin" />
+                                                                                  Surveillance UK <br />
+                                                                                  <p>The Business Centre</p>
+                                                                                  <p>Edgeworth Suite, Paragon Business Park,</p>
+                                                                                  <p>Chorley New Road, Horwich,</p>
+                                                                                  <p>BL6 6HG</p>
+                                                                                </li>
+                                                                            </ul>
+                                                                            
+                                                                            <ul class="info-company">
+                                                                                <li class="lg-location">
+                                                                                  London Office:
+                                                                                  <p style="padding-top:3px;"> <img src="{{asset('assets/images/site-location-b.webp')}}"
+                                                                                      alt="Location Pin" />Surveillance UK, 5th Floor,</p>
+                                                                                  <p>167-169 Great Portland Street,</p>
+                                                                                  <p>London, W1W 5PF</p>
+                                          
+                                                                                </li>
+                                                                            </ul>
+                                                                            <ul class="info-smi">
                                                                             <li>
-                                                                                <img src="{{asset('assets/images/site-mail-c.webp')}}"
-                                                                                    alt="Mail" />
-                                                                                office
-                                                                            </li>
-                                                                            <li class="lg location">
-                                                                                <img src="{{asset('assets/images/site-location-b.webp')}}"
-                                                                                    alt="Location Pin" />
-                                                                                8604 Sunset Boulevards. West Hollywood,
-                                                                                CA
-                                                                                90069
-                                                                            </li>
-                                                                            <li class="lg location">
-                                                                                <img src="{{asset('assets/images/site-location-b.webp')}}"
-                                                                                    alt="Location Pin" />
-                                                                                3140 East Coast Hwy., Newport Beach, CA
-                                                                                92625
-                                                                            </li>
-                                                                            <li class="lg location">
-                                                                                <img src="{{asset('assets/images/site-location-b.webp')}}"
-                                                                                    alt="Location Pin" />
-                                                                                7925 Girard Avenue, La Jolla, CA 92037
-                                                                            </li>
-                                                                            <li class="lg-location">
-
-                                                                                <img src="{{asset('assets/images/site-location-b.webp')}}"
-                                                                                    alt="Location Indicator" />
-                                                                                Paseo de la Marina 4732 Col. El Medano,
-                                                                                23453,<br />
-                                                                                Cabo San Lucas, BCS, MX 92625
-
-                                                                            </li>
-                                                                        </ul>
-                                                                        <ul class="info-smi">
-
-                                                                            <li>
-                                                                                <a href="#" target="_blank"
-                                                                                    rel="noopener noreferrer">
-                                                                                    <span class="hidden">LinkedIn</span>
-                                                                                    <span class="ai-linkedin"></span>
+                                                                                <a href="https://www.facebook.com/people/Surveillance-UK-Private-Investigators/61554412777429/"
+                                                                                data-href="#" target="_blank" rel="noopener noreferrer">
+                                                                                <span class="hidden">facebook</span>
+                                                                                <span class="ai-facebook"></span>
                                                                                 </a>
                                                                             </li>
                                                                             <li>
-                                                                                <a href="#" target="_blank"
-                                                                                    rel="noopener noreferrer">
-                                                                                    <span
-                                                                                        class="hidden">Instagram</span>
-                                                                                    <span class="ai-instagram"></span>
+                                                                                <a href="https://www.linkedin.com/company/surveillance-uk/about/?viewAsMember=true"
+                                                                                target="_blank" rel="noopener noreferrer">
+                                                                                <span class="hidden">LinkedIn</span>
+                                                                                <span class="ai-linkedin"></span>
                                                                                 </a>
                                                                             </li>
                                                                             <li>
-                                                                                <a href="#" target="_blank"
-                                                                                    rel="noopener noreferrer">
-                                                                                    <span class="hidden">WhatsApp</span>
-                                                                                    <span class="ai-whatsapp"></span>
+                                                                                <a href="https://www.instagram.com/surveillance.uk/" target="_blank"
+                                                                                rel="noopener noreferrer">
+                                                                                <span class="hidden">Instagram</span>
+                                                                                <span class="ai-instagram"></span>
                                                                                 </a>
                                                                             </li>
-                                                                        </ul>
+                                                                            <li>
+                                                                                <a href="https://wa.me/07905063856" target="_blank" rel="noopener noreferrer">
+                                                                                <span class="hidden">WhatsApp</span>
+                                                                                <span class="ai-whatsapp"></span>
+                                                                                </a>
+                                                                            </li>
+                                                                            </ul>
                                                                     </div>
                                                                 </div>
                                                             </div>

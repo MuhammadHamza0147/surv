@@ -8,13 +8,15 @@
     >
       <div class="textwidget custom-html-widget">
         <a
-          href="#"
           style="color: white; font-size: 20px; font-weight: 600"
           aria-label="ip-banner-link"
         >
           <img src="{{asset('assets/images/inner3.webp')}}" alt="" width="100%" height="342" />
 
           <div class="inner-banner-head">ABOUT SURVEILLANCE UK</div>
+          <div class="tel-banner">
+            <h4>Call 0161-327-4287 </h4>
+          </div>
         </a>
       </div>
     </div>
@@ -29,10 +31,7 @@
         <div id="content-full">
           <article id="content" class="hfeed">
 
-            <div
-              id="post-4778"
-              class="post-4778 page type-page status-publish hentry"
-            >
+            <div id="post-4778" class="post-4778 page type-page status-publish hentry">
               <div class="entry entry-content">
                 <div id="oppenheim-group" class="oppenheim-group">
                   <div class="oppenheim-group-wrap">
@@ -40,11 +39,8 @@
                       <div class="container">
                         <div class="row">
                           <div class="col-md-6">
-                            <h1
-                              class="oppenheim-group-title entry-title site-section-title"
-                              data-aos-once="true"
-                              data-aos="fade-right"
-                            >
+                            <h1 class="oppenheim-group-title entry-title site-section-title" data-aos-once="true"
+                              data-aos="fade-right">
                               <span>
                                 <em>About</em>
                                 Surveillance <b>UK</b>
@@ -55,11 +51,7 @@
                         </div>
                       </div>
 
-                      <div
-                        class="oppenheim-group-content"
-                        data-aos-once="true"
-                        data-aos="fade-up"
-                      >
+                      <div class="oppenheim-group-content" data-aos-once="true" data-aos="fade-up">
                         <div class="container">
                           <p>
                             Surveillance UK is a professional Surveillance,
@@ -84,21 +76,15 @@
                           </p>
                         </div>
                       </div>
-                    <div
-                      id="our-history"
-                      class="oppenheim-group-history-section-wrap"
-                    >
+                    </div>
+                    
+                    <div id="our-history" class="oppenheim-group-history-section-wrap">
                       <div class="container" style="margin-bottom: 30px">
                         <div class="oppenheim-group-history-section">
-                          <figure
-                            class="oppenheim-group-history-img pull-left hidden-xs hidden-sm"
-                            data-aos-once="true"
-                            data-aos="fade-up"
-                          >
-                            <img
-                              src="{{asset('assets/images/history.webp')}}"
-                              alt="Historic aerial photograph of the Jacob Stern residence at the corner of Hollywood Blvd. and Vine Street"
-                            />
+                          <figure class="oppenheim-group-history-img pull-left hidden-xs hidden-sm"
+                            data-aos-once="true" data-aos="fade-up">
+                            <img src="{{asset('assets/images/history.webp')}}"
+                              alt="Historic aerial photograph of the Jacob Stern residence at the corner of Hollywood Blvd. and Vine Street" />
                             <figcaption class="hidden">
                               “Historic aerial photograph of the Jacob Stern
                               residence at the corner of Hollywood Blvd. and
@@ -107,13 +93,9 @@
                               estate (lower left).”
                             </figcaption>
                           </figure>
-                          <figure
-                            class="oppenheim-group-history-img hidden-md hidden-lg"
-                          >
-                            <img
-                              src="{{asset('assets/images/history.webp')}}"
-                              alt="Historic aerial photograph of the Jacob Stern residence at the corner of Hollywood Blvd. and Vine Street"
-                            />
+                          <figure class="oppenheim-group-history-img hidden-md hidden-lg">
+                            <img src="{{asset('assets/images/history.webp')}}"
+                              alt="Historic aerial photograph of the Jacob Stern residence at the corner of Hollywood Blvd. and Vine Street" />
                             <figcaption class="hidden">
                               “Historic aerial photograph of the Jacob Stern
                               residence at the corner of Hollywood Blvd. and
@@ -122,21 +104,14 @@
                               estate (lower left).”
                             </figcaption>
                           </figure>
-                          <div
-                            class="oppenheim-group-history-title entry-title site-section-title"
-                            data-aos-once="true"
-                            data-aos="fade-left"
-                          >
+                          <div class="oppenheim-group-history-title entry-title site-section-title"
+                            data-aos-once="true" data-aos="fade-left">
                             <span>
                               Our <b>History</b>
                               <i class="title-line"></i>
                             </span>
                           </div>
-                          <div
-                            class="oppenheim-group-history-content"
-                            data-aos-once="true"
-                            data-aos="fade-up"
-                          >
+                          <div class="oppenheim-group-history-content" data-aos-once="true" data-aos="fade-up">
                             <p>
                               First established in 2013, Surveillance UK is
                               new to 2023 in name only. Our founder and a
@@ -192,8 +167,8 @@
                             <p>
                               For most, as you read this today, your
                               feelings will soon be yesterday’s past and
-                              tomorrows History, and while we answer to all
-                              our individual clients need, we try and make
+                              tomorrows history, and while we answer to all
+                              our individual clients needs, we try and make
                               that history a memory of happiness.
                             </p>
                             <br />

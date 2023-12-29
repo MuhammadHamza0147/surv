@@ -4,11 +4,14 @@
     <h2 class="aios-starter-theme-hide-title">Main Content</h2>
     <div id="inner-page-banner" class="inner-page-banner banner-concierge">
         <div class="textwidget custom-html-widget">
-            <a href="#" aria-label="ip-banner-link">
+            <a aria-label="ip-banner-link">
                 <img src="{{asset('assets/images/inner5.webp')}}" width="100%" height="342" alt="" />
                 <div class="inner-banner-head">
                     INTERNATIONAL
                     <b class="innerhead-tracing-b1">CLIENTS</b>
+                </div>
+                <div class="tel-banner">
+                    <h4>Call 0161-327-4287 </h4>
                 </div>
             </a>
         </div>
@@ -37,7 +40,6 @@
                                                             <span>
                                                                 INTERNATIONAL
                                                                 <b class="internation-head_b">REACH</b>
-                                                                <!--<i class="title-line"></i>-->
                                                             </span>
                                                         </h1>
                                                         <div class="new-development-content">
@@ -55,7 +57,7 @@
                                                                 scale, and like any business it is always
                                                                 good to hear the great feedback and thanks
                                                                 we receive.
-                                                            </p>
+                                                              </p>
                                                         </div>
                                                     </div>
                                                     <div style="margin-top:20px;">
@@ -73,24 +75,18 @@
                                                         <ul class="new-development-links-list">
                                                             <li>
                                                                 EUROPE
-
-                                                                <!--<a href="#" data-link-target="new-development-about-us" data-link-offset="100">About Us</a>-->
                                                             </li>
                                                             <li>
                                                                 U.S.A
-                                                                <!--<a href="#" data-link-target="new-development-services" data-link-offset="100">Services</a>-->
                                                             </li>
                                                             <li>
                                                                 MIDDLE EAST
-                                                                <!--<a href="#" data-link-target="new-development-experience" data-link-offset="100">Our Strategy</a>-->
                                                             </li>
                                                             <li>
                                                                 ASIA
-                                                                <!--<a href="#" data-link-target="new-development-testimonials" data-link-offset="100">Testimonials</a>-->
                                                             </li>
                                                             <li>
                                                                 EVERY TIME ZONE
-                                                                <!--<a href="#" data-link-target="new-development-listings" data-link-offset="100">New Development Listings</a>-->
                                                             </li>
                                                         </ul>
                                                     </div>

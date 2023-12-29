@@ -4,11 +4,14 @@
     <h2 class="aios-starter-theme-hide-title">Main Content</h2>
     <div id="inner-page-banner" class="inner-page-banner banner-concierge">
         <div class="textwidget custom-html-widget">
-            <a href="#" aria-label="ip-banner-link">
+            <a aria-label="ip-banner-link">
                 <img src="{{asset('assets/images/inner4.webp')}}" width="100%" height="342" alt="" />
                 <div class="inner-banner-head">
                     CATCH A CHEATING
                     <b class="innerhead-cheating-b">PARTNER</b>
+                </div>
+                <div class="tel-banner">
+                    <h4>Call 0161-327-4287 </h4>
                 </div>
             </a>
         </div>
@@ -131,24 +134,23 @@ margin-top: -20px;">.</span>
 
                                                             <span style="    margin-right: 10px;
 font-size: 34px;
-margin-top: -20px;">.</span>
-                                                            <li>
-                                                                Good old Gut Feeling…always trust your gut
-                                                                instinct!
+margin-top: -20px;">.</span>                                <li>
+                                                                Taking more interest in
+                                                                their appearance
                                                             </li>
+                                                            
 
 
                                                         </span>
 
                                                         <span style="display:flex; flex-direction:row;">
 
-                                                            <span style="    margin-right: 10px;
-font-size: 34px;
-margin-top: -20px;">.</span>
+                                                            <span style="margin-right: 10px; font-size: 34px;  margin-top: -20px;">.</span>
                                                             <li>
-                                                                Taking more interest in
-                                                                their appearance
+                                                                Good old Gut Feeling…always trust your gut
+                                                                instinct!
                                                             </li>
+                                                            
 
                                                         </span>
                                                     </ul>
@@ -228,66 +230,64 @@ margin-top: -20px;">.</span>
                                                 data-aios-staggered-child="true" data-aios-animation="slideInUp"
                                                 data-aios-animation-delay="0s" />
                                             <div class="row pt-3">
-                                                <div class="col-md-4 col-sm-6 col-10 mx-auto"
+                                                <div class="col-md-5 col-sm-6 col-10 justify-content-center"
                                                     data-aios-staggered-child="true" data-aios-animation="slideInLeft"
                                                     data-aios-animation-delay="0.2s">
                                                     <div class="new-development-services-list-title">
-                                                        The Signs
+                                                    The Signs
                                                     </div>
                                                     <ul class="new-development-services-list">
-                                                        <li><span> Late Home poor excuses</span></li>
-                                                        <li><span>
-                                                                Mobile on silent more in possession
-                                                            </span>
-                                                        </li>
-                                                        <li><span> More care on appearance</span></li>
-                                                        <li><span>
-                                                                Starts wearing Aftershave / Perfume
-                                                                more</span>
-                                                        </li>
-                                                        <li><span>
-                                                                Text messages from a work college out of
-                                                                hours</span>
-                                                        </li>
-                                                        <li><span>Overnight stays with ‘work’</span>
-                                                        </li>
-                                                        <li><span> Become argumentative</span></li>
-                                                        <li><span> Less sex</span></li>
-                                                        <li><span> Silly excuses to ‘nip out’</span>
-                                                        </li>
-                                                        <li><span> Your gut feeling</span></li>
-                                                        <li><span>Development, Design and
-                                                                Construction</span>
-                                                        </li>
+                                                    <li><span> Late Home poor excuses</span></li>
+                                                    <li><span>
+                                                        Mobile on silent more in possession
+                                                        </span>
+                                                    </li>
+                                                    <li><span> More care on appearance</span></li>
+                                                    <li><span>
+                                                        Starts wearing Aftershave / Perfume
+                                                        more</span>
+                                                    </li>
+                                                    <li><span>
+                                                        Text messages from a work college out of
+                                                        hours</span>
+                                                    </li>
+                                                    <li><span>Overnight stays with ‘work’</span>
+                                                    </li>
+                                                    <li><span> Become argumentative</span></li>
+                                                    <li><span> Less sex</span></li>
+                                                    <li><span> Silly excuses to ‘nip out’</span>
+                                                    </li>
+                                                    <li><span> Your gut feeling</span></li>
+                    
                                                     </ul>
                                                 </div>
-                                                <div class="col-md-4 col-sm-6 col-10 mx-auto"
+                                                <div class="col-md-5 col-sm-6 col-10 justify-content-center"
                                                     data-aios-staggered-child="true" data-aios-animation="slideInLeft"
                                                     data-aios-animation-delay="0.4s">
                                                     <div class="new-development-services-list-title">
-                                                        How We Catch a Cheat
+                                                    How We Catch a Cheat
                                                     </div>
                                                     <ul class="new-development-services-list">
-                                                        <li><span>Surveillance</span></li>
-                                                        <li><span>GPS Vehicle Tracking</span></li>
-                                                        <li><span> Background checks</span></li>
-                                                        <li><span>Recover deleted messages Text / Emails /
-                                                                Pictures</span>
-                                                        </li>
-                                                        <li><span>Investigation Skills</span></li>
-                                                        <li><span>Listening To You</span></li>
+                                                    <li><span>Surveillance</span></li>
+                                                    <li><span>GPS Vehicle Tracking</span></li>
+                                                    <li><span> Background checks</span></li>
+                                                    <li><span>Recover deleted messages Text / Emails /
+                                                        Pictures</span>
+                                                    </li>
+                                                    <li><span>Investigation Skills</span></li>
+                                                    <li><span>Listening To You</span></li>
                                                     </ul>
                                                 </div>
                                                 <div class="hidden-lg hidden-md clearfix"></div>
-                                                <div class="col-md-4 col-sm-6 col-10 mx-auto"
+                                                <div class="col-md-2 col-sm-6 col-10 justify-content-center"
                                                     data-aios-staggered-child="true" data-aios-animation="slideInRight"
                                                     data-aios-animation-delay="0.6s">
                                                     <div class="new-development-services-list-title">
-                                                        The Outcomes
+                                                    The Outcomes
                                                     </div>
                                                     <ul class="new-development-services-list">
-                                                        <li><span> Caught Cheating</span></li>
-                                                        <li><span> Caught not Cheating </span></li>
+                                                    <li><span> Caught Cheating</span></li>
+                                                    <li><span> Caught not Cheating </span></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -331,6 +331,9 @@ margin-top: -20px;">.</span>
                                                                 discretion. Take action, get in touch, let
                                                                 us put an end to your worries.
                                                             </p>
+                                                        </div>
+                                                        <div style="margin-top:20px;">
+                                                            <a href="{{route('contact.us')}}" class="dark-text site-button">Contact Us</a>
                                                         </div>
                                                     </div>
                                                     <div class="col-md-6" data-aios-staggered-child="true"
