@@ -77,7 +77,6 @@ class PagesController extends Controller
             'email_address' => 'required',
             'phone' => 'required',
             'message' => 'required',
-            'g-recaptcha-response' => 'required',
         ]);
 
         $mail = Mail::to('mianhamxa914@gmail.com')->send(new SendContactUsMail($request->all()));

@@ -91,13 +91,6 @@
                                                                 </div>
 
                                                                 <div class="form-group">
-                                                                    <div class="form-input lg">
-                                                                        <div class="g-recaptcha" data-sitekey="6LfUqDwpAAAAAHfql2HOCIURuZiIzQhNMsMBx_BF">
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div class="form-group">
                                                                     <div class="form-submit site-button">
                                                                         <button type="button" id="subBtn"
                                                                             class="wpcf7-form-control wpcf7-submit contact-btn">Submit</button>
@@ -320,14 +313,6 @@
                 return;
             }
             
-            var recaptchaResponse = $('textarea[name="g-recaptcha-response"]').val();
-            if(!recaptchaResponse){
-                $('#snackbar').show();
-                $('#snackbar').text('Please verify reCAPTCHA!');
-                setTimeout(function () {
-                    $('#snackbar').hide();
-                }, 7000);
-            }
             var formData = $('#contactForm').serializeArray();
             console.log(formData);
 
